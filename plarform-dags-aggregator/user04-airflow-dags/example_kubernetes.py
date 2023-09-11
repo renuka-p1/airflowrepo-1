@@ -41,6 +41,10 @@ with DAG(
         'role_hpedemo-user04': {
             'can_read',
             'can_edit'
+        },
+        'role_ashis': {
+            'can_read',
+            'can_edit'
         }
     }
 ) as dag:
