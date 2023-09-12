@@ -22,6 +22,7 @@ with DAG(
             'can_edit',
             'can_delete'
         }
+}
 ) as dag: 
     task1=BashOperator(
         task_id='first_task',
