@@ -20,6 +20,10 @@ with DAG(
     access_control={
         'role_ashis': {
             'can_read'
+        },
+        {
+        'role_hpedemo-user01': {
+            'can_read'
         }
 }
 ) as dag: 
