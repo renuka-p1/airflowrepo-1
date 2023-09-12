@@ -24,6 +24,9 @@ with DAG(
         },
         'role_hpedemo-user01': {
             'can_read'
+        },
+        'role_demo-admin': {
+            'can_read'
         }
 }
 ) as dag: 
