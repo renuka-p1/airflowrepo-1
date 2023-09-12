@@ -26,8 +26,7 @@ with DAG(
             'can_read'
         },
         'role_demo-admin': {
-            'can_read',
-            'can_delete'
+            'can_read'
         }
 }
 ) as dag: 
