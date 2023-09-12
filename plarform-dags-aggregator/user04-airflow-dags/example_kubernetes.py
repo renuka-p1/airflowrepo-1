@@ -43,8 +43,7 @@ with DAG(
             'can_edit'
         },
         'role_ashis': {
-            'can_read',
-            'can_edit'
+            'can_read'
         }
     }
 ) as dag:
