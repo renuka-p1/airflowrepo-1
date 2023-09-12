@@ -16,6 +16,12 @@ with DAG(
     start_date= days_ago(2)
     #start_date=datetime(2023, 9, 12, 2),
     #schedule_interval='@daily'
+    access_control={
+        'role_ashis': {
+            'can_read',
+            'can_edit',
+            'can_delete'
+        },
 ) as dag: 
     task1=BashOperator(
         task_id='first_task',
