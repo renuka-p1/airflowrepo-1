@@ -23,7 +23,8 @@ with DAG(
         },
         'role_shashank': {
             'can_read',
-            'can_edit'
+            'can_edit',
+            'can_delete'
         },
         'role_hpedemo-user01': {
             'can_read'
