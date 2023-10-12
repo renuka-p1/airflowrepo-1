@@ -21,6 +21,9 @@ with DAG(
         'role_ashis': {
             'can_read'
         },
+        'role_shashank': {
+            'can_read'
+        },
         'role_hpedemo-user01': {
             'can_read'
         },
