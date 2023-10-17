@@ -34,8 +34,7 @@ with DAG(
             'can_delete'
         },
         'role_rohit': {
-            'can_read',
-            'can_delete'
+            'can_read'
         }
 }
 ) as dag: 
