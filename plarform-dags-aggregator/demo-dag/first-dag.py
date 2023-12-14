@@ -19,8 +19,7 @@ with DAG(
     #schedule_interval='@daily'
     access_control={
         'role_ashis': {
-            'can_delete',
-            'can_edit'
+            'can_read'
         },
         'role_shashank': {
             'can_read',
