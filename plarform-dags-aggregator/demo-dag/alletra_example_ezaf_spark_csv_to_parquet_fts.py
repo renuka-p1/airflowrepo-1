@@ -20,7 +20,7 @@ default_args = {
 }
 
 dag = DAG(
-    "spark_read_csv_write_parquet_fts",
+    "alletra_spark_read_csv_write_parquet_fts",
     default_args=default_args,
     schedule_interval=None,
     tags=["e2e example", "ezaf", "spark", "csv", "parquet", "fts"],
@@ -59,7 +59,7 @@ dag = DAG(
 
 submit = SparkKubernetesOperator(
     task_id="submit",
-    application_file="example_ezaf_spark_csv_to_parquet_fts.yaml",
+    application_file="alletra_example_ezaf_spark_csv_to_parquet_fts.yaml",
     do_xcom_push=True,
     dag=dag,
     api_group="sparkoperator.hpe.com",
