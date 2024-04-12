@@ -20,7 +20,7 @@ default_args = {
 }
 
 dag = DAG(
-    "spark_read_csv_write_parquet_fts",
+    "vast_spark_read_csv_write_parquet_fts",
     default_args=default_args,
     schedule_interval=None,
     tags=["e2e example", "ezaf", "spark", "csv", "parquet", "fts"],
