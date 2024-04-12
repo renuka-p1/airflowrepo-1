@@ -59,7 +59,7 @@ dag = DAG(
 
 submit = SparkKubernetesOperator(
     task_id="submit",
-    application_file="example_ezaf_spark_csv_to_parquet_fts.yaml",
+    application_file="vast_example_ezaf_spark_csv_to_parquet_fts.yaml",
     do_xcom_push=True,
     dag=dag,
     api_group="sparkoperator.hpe.com",
