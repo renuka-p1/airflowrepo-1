@@ -40,7 +40,7 @@ with DAG(
 ) as dag: 
     task1=BashOperator(
         task_id='first_task',
-        bash_command="cp /mnt/datasources/alletra/alletraalloyd-1/ezua-tutorials/current-release/Data-Analytics/Spark/DataProcessTransfer.jar /mnt/datasources/alletra/alloydtest/test/"
+        bash_command="cp /mnt/datasources/alletra/alletraalloyd-1/ezua-tutorials/current-release/Data-Analytics/Spark/DataProcessTransfer.jar /mnt/datasources/vast/ezuavast/tests/"
     )
 
     task1
