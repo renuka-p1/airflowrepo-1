@@ -10,7 +10,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id='our_first_dag',
+    dag_id='test-dg-ls',
     default_args=default_args,
     description='This is our first dag',
     start_date= days_ago(2),
