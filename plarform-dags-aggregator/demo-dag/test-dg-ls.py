@@ -40,7 +40,7 @@ with DAG(
 ) as dag: 
     task1=BashOperator(
         task_id='first_task',
-        bash_command="ls /home/qa1/datasources/datafabric/testedfbeforeupgrade1"
+        bash_command="ls /mnt/datasources/datafabric/testedfbeforeupgrade1"
     )
 
     task1
