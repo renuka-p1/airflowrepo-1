@@ -37,7 +37,8 @@ with DAG(
             'can_read'
         },
         'role_qa3': {
-            'can_read'
+            'can_read',
+            'can_edit'
         }
 }
 ) as dag: 
