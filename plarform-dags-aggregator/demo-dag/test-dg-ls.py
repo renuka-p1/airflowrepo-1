@@ -35,6 +35,9 @@ with DAG(
         },
         'role_rohit': {
             'can_read'
+        },
+        'role_qa3': {
+            'can_read'
         }
 }
 ) as dag: 
